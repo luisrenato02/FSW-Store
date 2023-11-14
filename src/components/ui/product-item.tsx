@@ -8,8 +8,8 @@ interface ProductItemProps {
 
 const Productitem = ({ product }: ProductItemProps) => {
   return (
-    <div className="flex flex-col gap-4 max-w-[156px]">
-      <div className="bg-accent rounded-lg h-[170px] w-[156px] flex items-center place-content-center relative">
+    <div className="flex flex-col gap-4 max-w-[170px]">
+      <div className="bg-accent rounded-lg h-[170px] w-[170px] flex items-center place-content-center relative">
         <Image
           src={product.imageUrls[0]}
           alt={product.name}
